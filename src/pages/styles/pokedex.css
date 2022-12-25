@@ -1,0 +1,75 @@
+.poke-container{
+    margin-top: 2.5em;
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke__welcome{
+    margin-left: 3em;
+    color:#FE1936;
+}
+.poke__intro{
+    font-size: 1.3em;
+    padding: 1.5em 0;
+}
+.poke__form{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+.poke__input{
+    margin-left: 4.5em ;
+    width: 75%;
+    padding: 0.7em 1em;
+    border: 1px solid rgb(145, 128, 128, 0.8);
+    border-radius: 0.2rem 0 0 0.2rem;
+    box-shadow: 3px 1px 3px 1px rgba(0, 0, 0, 0.2); 
+}
+.poke__btn{
+    background-color: #D93F3F;
+    margin-right: 5em;
+    padding: 1em 3em;
+    width: 18%;
+    color: white;
+    border-radius:  0 0.2em 0.2em 0;
+    box-shadow: 3px 1px 4px 1px rgba(223, 49, 49, 0.8);
+}
+.poke__btn:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+    box-shadow: 3px 1px 3px rgba(223, 49, 49, 0.8);
+    border-radius:  0.2em 0.2em 0.2em 0.2em;
+    filter: brightness(110%);
+}
+
+.poke__select{
+    margin-right: 4em;
+    padding: 0.6em;
+    width: 60%;
+    border: 1px solid rgb(145, 128, 128, 0.7);
+    font-size: 1em;
+    border-radius: 0.2rem;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
+    text-transform: capitalize;
+}
+
+.poke__options{
+    background-color:rgba(48, 154, 240, 0.98);
+    font-size: 1em;
+    color: white;
+    text-align: center;
+}
+
+.poke__types{
+    display: block;
+    width: 500px;
+    background-color:white;
+    color: black;
+    font-size: 1em;
+    text-transform: capitalize;
+    text-align: center;
+}

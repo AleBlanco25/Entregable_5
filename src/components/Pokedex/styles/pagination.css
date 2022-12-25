@@ -1,0 +1,31 @@
+.pagination{
+    margin: 1.5em auto;
+}
+
+.pagination__list{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+}
+.pagination__item{
+    width: 37px;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pagination__item:hover{
+    background-color:#D93F3F;
+    color: white;
+    transform: scale(1.07);
+    transition: transform 0.5s ease;
+    filter: brightness(110%);
+}
+.page__active{
+    background-color:#D93F3F;
+    color: white;
+}
